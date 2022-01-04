@@ -1,0 +1,112 @@
+.blogDetails {
+    article {
+      margin-top: 1rem;
+      border: 1px solid black;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      height: 88.1vh;
+      h1 {
+        font-weight: 600;
+      }
+      cite {
+        display: inline-block;
+        color: rgb(255, 123, 0);
+        font-style: italic;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        border-top: 1px solid black;
+        // border-bottom: 1px solid black;
+        padding: 1rem;
+        // border-radius: 0.4rem;
+        height: 61.5vh;
+        overflow-y: auto;
+        padding-right: 0.25rem;
+      }
+      p::-webkit-scrollbar {
+        width: 5px;
+      }
+  
+      p::-webkit-scrollbar-thumb {
+        background-color: rgb(255, 208, 121);
+        border-radius: 30px;
+      }
+      .handlers {
+        text-align: center;
+      }
+    }
+  
+    .feedbacks {
+      width: 100%;
+      border: 1px solid black;
+      border-radius: 0.4rem;
+      padding: 0.5rem;
+      margin: 1rem auto;
+      a {
+        color: rgb(161, 159, 159);
+        &:hover {
+          color: rgb(255, 123, 0);
+        }
+      }
+    }
+    .handlers {
+      text-align: center;
+    }
+  
+    .commentSection {
+      position: relative;
+      height: 88vh;
+      border-radius: 0.5rem;
+      border: 1px solid black;
+      padding: 1rem;
+      margin-top: 1rem;
+      .comments {
+        padding-right: 0.25rem;
+        overflow: auto;
+        height: 80vh;
+      }
+      .comments::-webkit-scrollbar {
+        width: 5px;
+      }
+  
+      .comments::-webkit-scrollbar-thumb {
+        background-color: rgb(255, 208, 121);
+        border-radius: 30px;
+      }
+      form {
+        position: absolute;
+        bottom: 1rem;
+        width: 95%;
+        background-color: #fff;
+        padding: 0.5rem;
+      }
+      input,
+      button {
+        height: 1.5rem;
+        &:focus {
+          outline: 1px solid gray;
+        }
+      }
+      .comment {
+        margin-bottom: 0.5rem;
+        background-color: rgb(218, 218, 218);
+        border-radius: 0.4rem;
+        padding: 0.25rem 0.5rem;
+        font-style: italic;
+        span {
+          display: none;
+        }
+        &:hover span {
+          display: inline-block;
+        }
+      }
+      .comment i {
+        padding-left: 1rem;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }

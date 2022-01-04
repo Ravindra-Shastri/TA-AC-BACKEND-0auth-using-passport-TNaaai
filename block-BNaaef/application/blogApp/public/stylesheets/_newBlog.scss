@@ -1,0 +1,62 @@
+.newBlog {
+    h2 {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    form {
+      width: 60%;
+      border: 2px solid orange;
+      margin: 1rem auto;
+      background-color: rgb(235, 235, 235);
+      padding: 1.25rem;
+      border-radius: 0.5rem;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  
+      input {
+        width: 100%;
+        height: 2rem;
+        background-color: white;
+        margin-bottom: 1rem;
+        padding-left: 0.5rem;
+        border: 1px solid black;
+        font-family: 'Nunito', sans-serif;
+        &::placeholder {
+          color: black;
+          font-size: 0.9rem;
+        }
+      }
+      input:focus {
+        outline: none;
+        border: none;
+        outline: 2px solid black;
+      }
+  
+      textarea {
+        border: 1px solid black;
+        width: 100%;
+        height: 30rem;
+        margin-bottom: 0.5rem;
+        padding-top: 0.4rem;
+        padding-left: 0.5rem;
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+      }
+  
+      textarea:focus {
+        outline: none;
+        border: none;
+        outline: 2px solid black;
+      }
+  
+      .submit {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+        &:hover {
+          background-color: black;
+          color: orange;
+          border: none;
+          outline: 2px solid black;
+        }
+      }
+    }
+  }

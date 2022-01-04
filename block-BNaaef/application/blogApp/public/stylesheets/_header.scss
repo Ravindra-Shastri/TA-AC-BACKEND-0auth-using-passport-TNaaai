@@ -1,0 +1,25 @@
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    .logo {
+      font-family: 'Tangerine', cursive;
+      columns: black;
+      font-size: 3.25rem;
+      font-weight: 700;
+      span {
+        color: orange;
+      }
+    }
+    a {
+      color: black;
+      font-size: 1.5rem;
+    }
+    .user {
+      margin-right: 1rem;
+      font-weight: 600;
+      font-size: 1.6rem;
+    }
+    .user:hover {
+      color: rgb(255, 166, 0);
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    }
+  }

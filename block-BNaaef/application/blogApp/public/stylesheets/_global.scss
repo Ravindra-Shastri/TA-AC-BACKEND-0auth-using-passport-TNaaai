@@ -1,0 +1,99 @@
+/*Global*/
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    background-color: whitesmoke;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .padding {
+    padding: 5rem 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Images */
+  .font-0 {
+    font-size: 0;
+  }
+  
+  .full-width {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Headings */
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
+  
+  h6 {
+    font-size: 0.66rem;
+  }
+  
+  /* Buttons */
+  
+  .btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.35rem;
+    outline: none;
+    border: none;
+  }
+  
+  .btn-primary {
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 1rem;
+    &:hover {
+      background-color: rgba(0, 0, 0, 1);
+      cursor: pointer;
+    }
+  }
+  
+  .btn-secondary {
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid black;
+    font-size: 1.5rem;
+    &:hover {
+      background-color: rgba(0, 0, 0, 1);
+      cursor: pointer;
+    }
+  }
